@@ -146,7 +146,7 @@ def gains(data: TrainingData):
 
             if create_md:
                 print(f"- {param}: {unique_val} [+{counts[0]}, -{counts[1]}]")
-                entropy_eqn = f"$$ \\text{{Entropy}} = "
+                entropy_eqn = f"$$\\text{{Entropy}} = "
                 entropy_eqn += f"-\\frac{{{counts[0]}}}{{{counts[2]}}}\\log_2 \\frac{{{counts[0]}}}{{{counts[2]}}}"
                 entropy_eqn += f"-\\frac{{{counts[1]}}}{{{counts[2]}}}\\log_2 \\frac{{{counts[1]}}}{{{counts[2]}}}"
                 entropy_eqn += f" = {-entropy if entropy == 0 else entropy:.5f}$$"
