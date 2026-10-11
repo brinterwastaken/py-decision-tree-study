@@ -1,0 +1,15 @@
+Age,Income,Student,CreditRating,Decision
+Youth,High,No,Fair,False
+Youth,High,No,Excellent,False
+MiddleAged,High,No,Fair,True
+Senior,Medium,No,Fair,True
+Senior,Low,Yes,Fair,True
+Senior,Low,Yes,Excellent,False
+MiddleAged,Low,Yes,Excellent,False
+Youth,Medium,No,Fair,False
+Youth,Low,Yes,Fair,False
+Senior,Medium,Yes,Fair,True
+Youth,Medium,Yes,Excellent,True
+MiddleAged,Medium,No,Excellent,True
+MiddleAged,High,Yes,Fair,True
+Senior,Medium,No,Excellent,True

@@ -1,0 +1,11 @@
+CGPA,Interactiveness,Practical Knowledge,Comm Skills,Decision
+>= 9,Y,V. Good,Good,True
+>= 8,N,Good,Moderate,True
+>= 9,N,Avg,Poor,False
+< 8,N,Avg,Good,False
+>= 8,Y,Good,Moderate,True
+>= 9,Y,Good,Moderate,True
+< 8,Y,Good,Poor,False
+>= 9,N,V. Good,Good,True
+>= 8,Y,Good,Good,True
+>= 8,Y,Avg,Good,True
