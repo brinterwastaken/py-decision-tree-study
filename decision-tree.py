@@ -268,6 +268,9 @@ def main():
     create_md = args.markdown
     if create_md:
         print(f"# Decision Tree for `{args.data_file}`")
+        print(
+            "Created with: [brinterwastaken/py-decision-tree-study](https://github.com/brinterwastaken/py-decision-tree-study) (GitHub)"
+        )
 
     data = accept_data(args.data_file)
 
