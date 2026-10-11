@@ -240,7 +240,7 @@ def create_mermaid_diagram(
         )
         Mermaid(graph).to_svg(graph_filename)
 
-        print("Diagram Saved To: ", graph_filename)
+        print("Diagram Saved To:", graph_filename)
 
 
 def main():
@@ -265,7 +265,9 @@ def main():
     args = parser.parse_args()
 
     global create_md
+
     create_md = args.markdown
+
     if create_md:
         print(f"# Decision Tree for `{args.data_file}`")
         print(
@@ -278,7 +280,7 @@ def main():
 
     if not create_md:
         print("Nodes:", nodes)
-    create_mermaid_diagram(nodes, args.title)
+    create_mermaid_diagram(nodes, args.title, args.output_file)
 
 
 if __name__ == "__main__":
